@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get '/', to: 'question#ask'
+  root to: 'question#ask'
   get 'answer', to: 'question#answer'
 end
